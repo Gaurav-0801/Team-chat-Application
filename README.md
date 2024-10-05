@@ -1,2 +1,22 @@
-# Team-chat-Application
-Designed a modern, real-time, and responsive communication platform for teams. – Implemented socket.io for Real-time messaging and polling with alerts. – Achieved efficient and reliable database connection through connection pooling using the prisma accelerate.
+Features:
+
+Real-time messaging using Socket.io
+Send attachments as messages using UploadThing
+Delete & Edit messages in real time for all users
+Create Text, Audio and Video call Channels
+1:1 conversation between members
+1:1 video calls between members
+Member management (Kick, Role change Guest / Moderator)
+Unique invite link generation & full working invite system
+Infinite loading for messages in batches of 10 (tanstack/query)
+Server creation and customization
+Beautiful UI using TailwindCSS and ShadcnUI
+Full responsivity and mobile UI
+Light / Dark mode
+Websocket fallback: Polling with alerts
+ORM using Prisma
+MySQL database using Planetscale
+Authentication with Clerk
+Prerequisites
+Node version 18.x.x
+
